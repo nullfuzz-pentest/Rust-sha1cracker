@@ -1,8 +1,12 @@
 [package]
 name = "sha1-cracker"
-version = "0.1.0"
-edition = "2021"
+version = "1.0"
+authors = "Nullfuzz"
+edition = "2022"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sha-1 = "0.10.0"
+hex = "0.4.3"
